@@ -13,7 +13,7 @@ public class Success_ending extends JFrame {
 	ImageIcon logo; 
 	
 	Image bg = new ImageIcon("ends.jpg").getImage();
-	Image write_complete = new ImageIcon("complete (2).png").getImage();
+	Image write_complete = new ImageIcon("signboard.png").getImage();
 	Image write_hero = new ImageIcon("hero1.png").getImage();
 	
 	private Toolkit t;
@@ -55,8 +55,8 @@ public class Success_ending extends JFrame {
 		Graphics2D g2D = (Graphics2D) g;
 		
 		g2D.drawImage(bg, 0, 0, null);
-		g2D.drawImage(write_complete, 10, 50, null);
-		g2D.drawImage(write_hero, 500, 500, null);
+		g2D.drawImage(write_complete, 10, 40, null);
+		g2D.drawImage(write_hero, 400, 400, null);
 		
 		//g2D.drawImage(enemy, 100, 400, null);
 		

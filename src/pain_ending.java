@@ -14,7 +14,10 @@ public class pain_ending extends JFrame {
 	
 	Image bg = new ImageIcon("painback.png").getImage();
 	Image giants = new ImageIcon("gia.png").getImage();
-	Image write_you = new ImageIcon("youarea writing.png").getImage();
+	Image loser = new ImageIcon("lost.png").getImage();
+	Image grave = new ImageIcon("grave.png").getImage();
+	Image stone = new ImageIcon("zackdead.png").getImage();
+	
 	
 	private Toolkit t;
 	private Dimension d;
@@ -55,11 +58,10 @@ public class pain_ending extends JFrame {
 		Graphics2D g2D = (Graphics2D) g;
 		
 		g2D.drawImage(bg, 0, 0, null);
-		//g2D.drawImage(write_you, 0, 100, null);
 		g2D.drawImage(giants, -30, 200, null);
-		
-		//g2D.drawImage(enemy, 100, 400, null);
-		
+		g2D.drawImage(loser, 400, -20, null);
+		g2D.drawImage(grave, 900, 400, null);
+		g2D.drawImage(stone, 1020, 505, null);
 		
 		
 		
